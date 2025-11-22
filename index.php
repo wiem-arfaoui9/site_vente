@@ -39,7 +39,7 @@ $produits = [
     <img src="images/logo-placeholder.png" alt="Fibra" class="logo">
     <div class="brand-text">
       <span class="brand-name">Fibra</span>
-      <small class="brand-sub">Sacs artisanaux</small>
+      <small class="brand-sub">Sacs modernes</small>
     </div>
   </div>
   <nav class="nav-right">
