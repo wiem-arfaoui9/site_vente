@@ -53,7 +53,7 @@ $produits = [
   <section class="hero">
     <div class="hero-inner">
       <h1>Sacs artisanaux en fibres naturelles</h1>
-      <p>Fabriqués en Tunisie avec passion — pièces uniques et durables.</p>
+      <p>Fabriqués en Tunisie avec passion — des pièces stylées et durables.</p>
       <a href="#catalogue" class="btn-primary">Voir le catalogue</a>
     </div>
   </section>
