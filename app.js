@@ -1,8 +1,8 @@
 const products = [
   { id: 1, name: "Sac à main", price: 150.99, desc: "c'est l'élegence qui parle.", img: "images/sac1.jpg" },
   { id: 2, name: "Sac à main", price: 99.99, desc: "Élégant et durable.", img: "images/sac2.jpg" },
-  { id: 3, name: "Sac de voyage", price: 129.99, desc: "Grand format, idéal pour voyager.", img: "images/sac3.jpg" },
-    { id: 4, name: "Sac de voyage", price: 129.99, desc: "Grand format, idéal pour voyager.", img: "images/sac4.jpg" },
+  { id: 3, name: "Sac de voyage", price: 129.99, desc: "Pièce unique au charme discret, symbole de finesse et de modernité.", img: "images/sac3.jpg" },
+    { id: 4, name: "Sac de voyage", price: 85.99, desc: "Sac rouge chic et intemporel, alliant style moderne et touche de sophistication.", img: "images/sac4.jpg" },
     { id: 5, name: "Sac de voyage", price: 129.99, desc: "Grand format, idéal pour voyager.", img: "images/sac5.jpg" },
      { id: 6, name: "Sac de voyage", price: 129.99, desc: "Grand format, idéal pour voyager.", img: "images/sac6.jpg" },
       { id: 7, name: "Sac de voyage", price: 129.99, desc: "Grand format, idéal pour voyager.", img: "images/sac7.jpg" },
