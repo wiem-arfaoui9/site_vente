@@ -7,22 +7,22 @@ if (!isset($_SESSION['user']) || !$_SESSION['user']) {
 }
 
 $produits = [
-    ['id'=>1,'nom'=>'Sac a main','prix'=>150.99,'img'=>'images/sac1.jpg','desc'=>'l élegence qui parle .'],
+    ['id'=>1,'nom'=>'Sac à main','prix'=>150.99,'img'=>'images/sac1.jpg','desc'=>'L’élégance qui parle.'],
     ['id'=>2,'nom'=>'Sac à main','prix'=>79.99,'img'=>'images/sac2.jpg','desc'=>'Élégant et durable, parfait pour la ville.'],
-    ['id'=>3,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac3.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>4,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac4.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>5,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac5.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>6,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac6.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>7,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac7.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>8,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac8.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>9,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac9.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>10,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac10.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>11,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac11.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>12,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac12.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>13,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac13.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>14,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac14.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>15,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac15.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
-    ['id'=>16,'nom'=>'Sac de voyage','prix'=>129.99,'img'=>'images/sac16.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
+    ['id'=>3,'nom'=>'Sac à main','prix'=>129.99,'img'=>'images/sac3.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
+    ['id'=>4,'nom'=>'Sac à main','prix'=>85.99,'img'=>'images/sac4.jpg','desc'=>'Sac rouge chic et intemporel, alliant style moderne et touche de sophistication.'],
+    ['id'=>5,'nom'=>'Sac à main','prix'=>111.99,'img'=>'images/sac5.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
+    ['id'=>6,'nom'=>'Sac à main','prix'=>169.99,'img'=>'images/sac6.jpg','desc'=>'Sac élégant, conçu pour apporter une touche de classe à chaque occasion.'],
+    ['id'=>7,'nom'=>'Sac à main','prix'=>129.99,'img'=>'images/sac7.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
+    ['id'=>8,'nom'=>'Sac à main','prix'=>129.99,'img'=>'images/sac8.jpg','desc'=>'Sac camel à un style classique avec un fermoir noir élégant.'],
+    ['id'=>9,'nom'=>'Sac à main','prix'=>129.99,'img'=>'images/sac9.jpg','desc'=>'Blanc texturé, moderne et raffiné avec des détails dorés.'],
+    ['id'=>10,'nom'=>'Sac à main','prix'=>129.99,'img'=>'images/sac10.jpg','desc'=>'Blanc texturé, moderne et raffiné avec des détails dorés.'],
+    ['id'=>11,'nom'=>'Sac à main','prix'=>129.99,'img'=>'images/sac11.jpg','desc'=>'Sac kaki est grand, pratique et minimaliste pour transporter beaucoup d’affaires.'],
+    ['id'=>12,'nom'=>'Sac à main','prix'=>129.99,'img'=>'images/sac12.jpg','desc'=>'Sac noir structuré est idéal pour un style professionnel sobre.'],
+    ['id'=>13,'nom'=>'Sac à main','prix'=>129.99,'img'=>'images/sac13.jpg','desc'=>'Petit sac violet lavande est tendance, mignon et parfait pour un look moderne.'],
+    ['id'=>14,'nom'=>'Sac à main','prix'=>129.99,'img'=>'images/sac14.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
+    ['id'=>15,'nom'=>'Sac à main','prix'=>129.99,'img'=>'images/sac15.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
+    ['id'=>16,'nom'=>'Sac à main','prix'=>129.99,'img'=>'images/sac16.jpg','desc'=>'Grand format, idéal pour les week-ends.'],
 ];
 ?>
 <!DOCTYPE html>
@@ -39,7 +39,7 @@ $produits = [
     <img src="images/logo-placeholder.png" alt="Fibra" class="logo">
     <div class="brand-text">
       <span class="brand-name">Fibra</span>
-      <small class="brand-sub">Sacs artisanaux</small>
+      <small class="brand-sub">Sacs modernes</small>
     </div>
   </div>
   <nav class="nav-right">
@@ -52,8 +52,8 @@ $produits = [
 <main class="site-main">
   <section class="hero">
     <div class="hero-inner">
-      <h1>Sacs artisanaux en fibres naturelles</h1>
-      <p>Fabriqués en Tunisie avec passion — pièces uniques et durables.</p>
+      <h1>L’élégance moderne au bout de vos mains</h1>
+      <p>Fabriqués en Tunisie avec passion — des pièces stylées et durables.</p>
       <a href="#catalogue" class="btn-primary">Voir le catalogue</a>
     </div>
   </section>
@@ -66,7 +66,7 @@ $produits = [
   <section id="about" class="about">
     <h2>À propos</h2>
     <p>
-      Chez <strong>Fibra</strong>Chaque pièce est unique, durable et fabriquée avec soin.
+      Chez <strong>Fibra</strong>, chaque pièce est unique, durable et fabriquée avec soin.
     </p>
   </section>
 </main>
