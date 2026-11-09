@@ -1,0 +1,17 @@
+stages:
+  - test
+  - build
+
+variables:
+  IMAGE_NAME: "zenvy"
+
+test:
+  stage: test
+  script:
+    - echo "Test du projet Zenvy"
+    - echo "Tests réussis"
+
+build:
+  stage: build
+  script:
+    - docker build -t $IMAGE_NAME .

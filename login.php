@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Fibra — Connexion</title>
+<title>Zenvy — Connexion</title>
 
 <link rel="stylesheet" href="assets/styles.css">
 
@@ -118,7 +118,7 @@ input{
 
 <form method="post" class="login-card">
 
-<h2>Connexion Fibra</h2>
+<h2>Connexion Zenvy</h2>
 
 <?php if ($error): ?>
 <div class="error">

@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>Fibra - Inscription</title>
+<title>Zenvy - Inscription</title>
 
 <link rel="stylesheet" href="assets/styles.css">
 
@@ -118,7 +118,7 @@ input{
 
 <form method="POST" class="login-card">
 
-<h2>Inscription Fibra</h2>
+<h2>Inscription Zenvy</h2>
 
 <?php if($message != ""): ?>
 <div class="error">

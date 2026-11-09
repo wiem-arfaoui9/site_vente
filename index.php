@@ -30,15 +30,15 @@ $produits = [
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Fibra — Catalogue</title>
+<title>Zenvy — Catalogue</title>
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
 <header class="site-header">
   <div class="brand-left">
-    <img src="images/logo-placeholder.png" alt="Fibra" class="logo">
+    <img src="images/logo-placeholder.png" alt="Zenvy" class="logo">
     <div class="brand-text">
-      <span class="brand-name">Fibra</span>
+      <span class="brand-name">Zenvy</span>
       <small class="brand-sub">Sacs modernes</small>
     </div>
   </div>
@@ -66,7 +66,7 @@ $produits = [
   <section id="about" class="about">
     <h2>À propos</h2>
     <p>
-      Chez <strong>Fibra</strong>, chaque pièce est unique, durable et fabriquée avec soin.
+      Chez <strong>Zenvy</strong>, chaque pièce est unique, durable et fabriquée avec soin.
     </p>
   </section>
 </main>
@@ -86,7 +86,7 @@ $produits = [
 
 <footer class="site-footer">
   <div class="footer-left">
-    <small>© <span id="year"></span> Fibra</small>
+    <small>© <span id="year"></span> Zenvy</small>
   </div>
   <div class="footer-right">
     <a href="https://wa.me/21600000000" target="_blank">WhatsApp</a>
