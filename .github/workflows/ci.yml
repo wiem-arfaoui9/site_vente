@@ -1,0 +1,42 @@
+name: Zenvy CI
+
+on:
+  push:
+    branches:
+      - main
+      - feature/register-page
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Show files
+        run: ls -la
+
+      - name: Test Dockerfile
+        run: docker build -t zenvy .
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    needs: test
+
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Image
+        run: docker build -t zenvy:latest .
